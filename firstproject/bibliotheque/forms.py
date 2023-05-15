@@ -1,6 +1,6 @@
 from django.forms import ModelForm
 from django.utils.translation import gettext_lazy as _
-from firstproject.bibliotheque import models
+from . import models
 
 
 class LivreForm(ModelForm):
